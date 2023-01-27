@@ -1,0 +1,103 @@
+.dice {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3.81277px;
+    width: 50px;
+    height: 50px;
+}
+
+.dice--one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice--dot {
+    height: 6px;
+    width: 6px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.dice--two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dice--two div:nth-child(1) {
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+.dice--two div:nth-child(2) {
+    margin-right: auto;
+    margin-left: 12px;
+}
+
+.dice--three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dice--three div:nth-child(1) {
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+.dice--three div:nth-child(3) {
+    margin-right: auto;
+    margin-left: 12px;
+}
+
+.dice--four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice--four--grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.dice--five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dice--five--row1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.dice--five--row2 {
+    margin: 5px 0px;
+}
+
+.dice--five--row3 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+
+.dice--six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice--six--grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 14px;
+    row-gap: 5px;
+}
